@@ -95,7 +95,6 @@ https://computefest.seas.harvard.edu/symposium\\
 - E-mail list
 
 
-
 * 9:15 AM Title: “Reinforcement Learning in Healthcare: Challenges and Promise"
 Presenter: [[https://www.seas.harvard.edu/directory/finale][Finale Doshi-Velez]], Assistant Professor of Computer Science, Harvard University
 
@@ -126,6 +125,35 @@ Presenter: [[https://www.seas.harvard.edu/directory/finale][Finale Doshi-Velez]]
 
 * 9:55 AM Title: "The Algorithm for Precision Medicine"
 Presenter: [[https://www.uab.edu/medicine/news/latest/item/1411-white-house-strategist-to-lead-uab-s-personalized-medicine-institute][Matt Might]], Director of the Hugh Kaul Personalized Medicine Institute, University of Alabama at Birmingham
+
+- Quit White House as of last week
+- Precision Medicine: often genome-driven, right drug to right patient
+- Data is the best drug, computation is the limiting step.
+- mapping a patient to a treatment (not )
+- [[https://en.wikipedia.org/wiki/NGLY1][NGLY1]] deficiency was found in his son https://www.ngly1.org
+- Pathogenicity of mutations
+- read-through compounds did not work. In biology, theory often does not work in practice
+- A blog post describing the symptoms resulted in reporting of 58 patients.
+- With CRISPR, knock-out model organisms were created.
+- biological model and try out many compounds
+- computational assay with deep learning (multi-dimensional data as an assay?)
+- PEG Protein-based emzyme med in progress
+- Specialized diet (eg. PKU, MPI-CDG).
+- additional disfunction on ENGage rescues NGLY deficiency
+- deep learning for toxicity
+- Scaling up of algorithm
+- PEPMA in Precision Medicine initiative
+- 5 disease given 12 months (rest of Obama era)
+- UAB position
+- gain of function find inhibitor; loss of function find activator
+- Precision oncology, tumor is sequenced (what in autoimmune diseases?)
+- Pharmacogenomics focusing on depression
+- Computational medicine
+- [[https://github.com/webyrd/mediKanren][mediKanren]]: logical reasoning (miniKanren-based).
+  - Graph structured DB of pubmed (via Nlp)
+  - Relation describing logic language
+  - logical query can be made
+
 
 * 10:55 AM Title: "Optimizing the patient journey with AI"
 Presenter: [[https://www.hsph.harvard.edu/ecpe/faculty/john-brownstein/][John Brownstein]], Professor of Pediatrics, Harvard Medical School & Chief Innovation Officer, Boston Children's Hospital
