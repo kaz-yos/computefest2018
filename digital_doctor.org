@@ -77,7 +77,7 @@
 
 * Overall
 https://computefest.seas.harvard.edu/symposium\\
-
+** Committee
 [[https://iacs.seas.harvard.edu/people/cathy-chute][Catherine Chute]],Assistant Dean for Professional Programs and Executive Director for the Institute for Applied Computational Science, Harvard John A. Paulson School of Engineering and Applied Sciences\\
 [[https://www.hsph.harvard.edu/francesca-dominici/][Francesca Dominici]], Professor of Biostatistics, Harvard T.H. Chan School of Public Health & Co-Director of the Data Science Initiative, Harvard University\\
 [[http://bit-player.org/about-the-author][Brian Hayes]], Senior Writer for /American Scientist/; Associate in Computer Science, Harvard University; & Y Combinator Research Fellow\\
@@ -98,6 +98,31 @@ https://computefest.seas.harvard.edu/symposium\\
 
 * 9:15 AM Title: “Reinforcement Learning in Healthcare: Challenges and Promise"
 Presenter: [[https://www.seas.harvard.edu/directory/finale][Finale Doshi-Velez]], Assistant Professor of Computer Science, Harvard University
+
+- Right treatment for right person: hard
+- optimizing HIV treatment with reinforcement learning
+- co-resistance may occur depending on drug combination, sequence of drugs important
+- Considering all the past history of treatment
+- Partially observable reinforcement learning
+- maximizing long-term /rewards/ (sum)
+- Introduce a /representation/ that summarizes the history (parametric assumption?)
+- Enst 2005 Parboo 2014, Marivate 2015: simulation model based approaches have not been very successful
+- drugs; hidden state exhibits as CD4, viral load, viral mutations (hidden Markov model?)
+- Neighborhood-based predictions (Bogojeska 2012): finding similar patients. Works if there are similar patients (no extrapolation required)
+- For singleton patients, model-based prediction
+- Action space (what to do with drugs need trimming down)
+- Policies: random policy, neighbor policy, mode-based policy, mixture did better
+- Usable in other settings? Sepsis came up as another example, no single indicator of success like CD4. optimizing BP care is not enough
+- Weighted doubly robust? high variance of machine-selected policy. on average better than physician-policy
+- Summarize histories and consider long-term effects. AIs are team-members with flaws and strengths
+- [[https://www.mlforhc.org][Machine Learning for Healthcare 2018]] August 17-18 Stanford University, Stanford, CA
+- Q&A
+  - Frequency of observation is not random (MRSA less observations, VIP more observations, etc)
+  - Neighbor: what metric of closeness.
+- My Thoughts
+  - TTT may be modeled this way similarly to HIV care?
+
+
 
 * 9:55 AM Title: "The Algorithm for Precision Medicine"
 Presenter: [[https://www.uab.edu/medicine/news/latest/item/1411-white-house-strategist-to-lead-uab-s-personalized-medicine-institute][Matt Might]], Director of the Hugh Kaul Personalized Medicine Institute, University of Alabama at Birmingham
