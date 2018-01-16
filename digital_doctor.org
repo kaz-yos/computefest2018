@@ -155,8 +155,32 @@ Presenter: [[https://www.uab.edu/medicine/news/latest/item/1411-white-house-stra
   - logical query can be made
 
 
-* 10:55 AM Title: "Optimizing the patient journey with AI"
+* 10:55 AM Title: "Optimizing the patient journey with AI" (big data and the future of medicine)
 Presenter: [[https://www.hsph.harvard.edu/ecpe/faculty/john-brownstein/][John Brownstein]], Professor of Pediatrics, Harvard Medical School & Chief Innovation Officer, Boston Children's Hospital
+
+- MI at Partners Healthcare
+- siloed health care data
+- no available data, no API, no user app
+- [[https://commonfund.nih.gov/bd2k][BD2K]] Big Data to Knowledge
+- radiology BCH and GE digital tool to distinguish abnormal from normal
+- time series in ICU
+- Precision medicine service at BCH: pediatrics is where rare mutation
+- prediction of patient placement
+- digital phenotype in twitter
+- trend in disease
+- [[http://www.healthmap.org/en/][HealthMap]]. now used by WHO
+- digital disease detection [[http://www.nejm.org/doi/full/10.1056/NEJMp0900702#t=article][NEJM paper]]
+- [[http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003581][Wikipedia Usage Estimates Prevalence of Influenza-Like Illness in the United States in Near Real-Time]]
+- [[https://vector.childrenshospital.org/2014/02/what-your-dinner-cancellation-on-opentable-says-about-the-flu/][What your dinner cancellation on OpenTable says about the flu]]
+- [[https://elifesciences.org/articles/15272][Mapping global environmental suitability for Zika virus]]
+- [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4167574/][Online Reports of Foodborne Illness Capture Foods Implicated in Official Foodborne Outbreak Reports]]
+- People are quite open about opioid abuse diversion  [[http://streetrx.com][streetRx - Latest Street Prices For Prescription Drugs]]
+- [[https://flunearyou.org/#!/][flu near you]]
+- [[http://thermia.io][THERMIASimplifying Fevers]]
+- [[https://www.buoyhealth.com][Buoy | Understand Your Symptoms]]
+- Flu service via Uber (logistics can be used)
+
+
 
 * 11:35 AM Title: "Phenomics is the New Genomics"
 Presenter: [[http://mghassem.mit.edu/][Marzyeh Ghassemi]], Visiting Researcher at Google's Verily & MIT CSAIL Post Doctoral Fellow
