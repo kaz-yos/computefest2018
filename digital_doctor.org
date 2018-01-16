@@ -35,7 +35,7 @@
 #+LATEX_HEADER: \pagestyle{fancy}
 #+LATEX_HEADER: \fancyhf{} % Erase first to supress section names
 #+LATEX_HEADER: \fancyhead[L]{Kazuki Yoshida} % LEFT
-#+LATEX_HEADER: \fancyhead[C]{} % CENTER
+#+LATEX_HEADER: \fancyhead[C]{The Digital Doctor: Health Care in an Age of AI and Big Data} % CENTER
 #+LATEX_HEADER: \fancyhead[R]{\today} % RIGHT
 #+LATEX_HEADER: \fancyfoot[C]{\thepage}
 #+LATEX_HEADER: %% \fancyfoot[R]{Page \thepage\ of \pageref{LastPage}}
@@ -76,27 +76,44 @@
 
 
 * Overall
-- https://computefest.seas.harvard.edu/symposium
+https://computefest.seas.harvard.edu/symposium\\
+
+[[https://iacs.seas.harvard.edu/people/cathy-chute][Catherine Chute]],Assistant Dean for Professional Programs and Executive Director for the Institute for Applied Computational Science, Harvard John A. Paulson School of Engineering and Applied Sciences\\
+[[https://www.hsph.harvard.edu/francesca-dominici/][Francesca Dominici]], Professor of Biostatistics, Harvard T.H. Chan School of Public Health & Co-Director of the Data Science Initiative, Harvard University\\
+[[http://bit-player.org/about-the-author][Brian Hayes]], Senior Writer for /American Scientist/; Associate in Computer Science, Harvard University; & Y Combinator Research Fellow\\
+[[http://dbmi.hms.harvard.edu/zak][Isaac Samuel Kohane]], Chair, Department of Biomedical Informatics & Professor of Biomedical Informatics and Pediatrics, Harvard Medical School\\
+[[http://iacs.seas.harvard.edu/people/pavlos-protopapas][Pavlos Protopapas]], Scientific Program Director & Lecturer in Computation, Institute for Applied Computational Science, Harvard John A. Paulson School of Engineering and Applied Sciences\\
+[[https://www.seas.harvard.edu/directory/margo][Margo Seltzer]], Herchel Smith Professor of Computer Science & Director for the Center for Research on Computation and Society, Harvard John A. Paulson School of Engineering and Applied Sciences
+
+** [[https://datascience.harvard.edu][Harvard Data Science Initiative]]
+
+- Francesca Dominici co-director
+- 8 Post-doctoral fellows
+- Grants for data science
+- 100+ faculty members
+- Seminars
+- E-mail list
 
 
-* 9:15 AM	Title: “Reinforcement Learning in Healthcare: Challenges and Promise"
-Presenter: Finale Doshi-Velez, Assistant Professor of Computer Science, Harvard University
 
-* 9:55 AM	Title: "The Algorithm for Precision Medicine"
-Presenter: Matt Might, Director of the Hugh Kaul Personalized Medicine Institute, University of Alabama at Birmingham
+* 9:15 AM Title: “Reinforcement Learning in Healthcare: Challenges and Promise"
+Presenter: [[https://www.seas.harvard.edu/directory/finale][Finale Doshi-Velez]], Assistant Professor of Computer Science, Harvard University
 
-* 10:55 AM  	Title: "Optimizing the patient journey with AI"
-Presenter: John Brownstein, Professor of Pediatrics, Harvard Medical School & Chief Innovation Officer, Boston Children's Hospital
+* 9:55 AM Title: "The Algorithm for Precision Medicine"
+Presenter: [[https://www.uab.edu/medicine/news/latest/item/1411-white-house-strategist-to-lead-uab-s-personalized-medicine-institute][Matt Might]], Director of the Hugh Kaul Personalized Medicine Institute, University of Alabama at Birmingham
 
-* 11:35 AM	Title: "Phenomics is the New Genomics"
-Presenter: Marzyeh Ghassemi, Visiting Researcher at Google's Verily & MIT CSAIL Post Doctoral Fellow
+* 10:55 AM Title: "Optimizing the patient journey with AI"
+Presenter: [[https://www.hsph.harvard.edu/ecpe/faculty/john-brownstein/][John Brownstein]], Professor of Pediatrics, Harvard Medical School & Chief Innovation Officer, Boston Children's Hospital
 
-* 2:00 PM  	Title: “Challenges and Opportunities for Machine Learning in Cancer Immunotherapy"
-Presenter: Jennifer Chayes, Managing Director, Microsoft New England Research and New York City
+* 11:35 AM Title: "Phenomics is the New Genomics"
+Presenter: [[http://mghassem.mit.edu/][Marzyeh Ghassemi]], Visiting Researcher at Google's Verily & MIT CSAIL Post Doctoral Fellow
 
-* 2:40 PM	Title: “Deciphering the Dynamics of the Anesthetized Brain: A Case Study in Statistical and Mathematical Modeling"
-Presenter: Emery Brown, Edward Hood Taplin Professor of Medical Engineering and of Computational Neuroscience, Massachusetts Institute of Technology
+* 2:00 PM Title: “Challenges and Opportunities for Machine Learning in Cancer Immunotherapy"
+Presenter: [[https://www.microsoft.com/en-us/research/people/jchayes/][Jennifer Chayes]], Managing Director, Microsoft New England Research and New York City
 
-* 3:45 PM	Panel Discussion
-Moderater: Margo Seltzer, Herchel Smith Professor of Computer Science & Director for the Center for Research on Computation and Society, Harvard University
+* 2:40 PM Title: “Deciphering the Dynamics of the Anesthetized Brain: A Case Study in Statistical and Mathematical Modeling"
+Presenter: [[http://imes.mit.edu/people/faculty/brown-emery/][Emery Brown]], Edward Hood Taplin Professor of Medical Engineering and of Computational Neuroscience, Massachusetts Institute of Technology
+
+* 3:45 PM Panel Discussion
+Moderater: [[https://www.seas.harvard.edu/directory/margo][Margo Seltzer]], Herchel Smith Professor of Computer Science & Director for the Center for Research on Computation and Society, Harvard University
 Participants: Emery Brown, John Brownstein, Finale Doshi-Velez, Maryzheh Ghassemi, and Matt Might
