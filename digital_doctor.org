@@ -208,7 +208,26 @@ Presenter: [[http://mghassem.mit.edu/][Marzyeh Ghassemi]], Visiting Researcher a
 * 2:00 PM Title: “Challenges and Opportunities for Machine Learning in Cancer Immunotherapy"
 Presenter: [[https://www.microsoft.com/en-us/research/people/jchayes/][Jennifer Chayes]], Managing Director, Microsoft New England Research and New York City
 
-
+- MS partnering with Sloan Kettering Dana Stanford JH
+- Adaptive Biotechnologies: T cell profiling
+- 70-200 mutations required for cancer
+- T-cell clonal expansion after encountering relevant antigens
+- checkpoint inhibitors (anti-CTLA4, anti-PDL1; note abatacept is a fusion CTLA4-Fc) highly successful but causes auto-immunity
+- mechanistic level: predict immunogenicity of (neo)antigens. high-dimensional feature space
+- clinical level predict patient response to checkpoint inhibitor immunotherapy. microbiome trains immunity. high-dimensional feature space but small number of patients
+- T-cells collected from 10 subjects, tested against a panel of 1000 antigens
+- Sparce matrix completion to predict a new T-cell's response to a panel of antigens
+- cancer diagnosis: If T-cells are enriched with clones responsive to GBM, patients may have GBM
+- threapy. If a patient has effective T-cell population, upregulation by checkpoint inhibitor likely work
+- adverse events: standard self-antigens
+- long-term survivors of melanoma
+- FDA approved immunotherapy for MSI-high or MMR-deficient tumors (molecular target specific)
+- predict T-cell clones in tumor that expand in the blood. surrogate marker
+- multifactorial modeling using elastic net. cross-validation
+- Ojala & Garriga JMLR 2010permutation test [[http://www.jmlr.org/papers/v11/ojala10a.html][Permutation Tests for Studying Classifier Performance]]
+- 21 patients. 80% explained variance in CV.
+- Blum et al COLT 1999. Rules out perverse case where CV known to be unreliable.
+- permutation of part of covariates (clinical, etc). (This is breaking correlation among covariates?)
 
 
 * 2:40 PM Title: “Deciphering the Dynamics of the Anesthetized Brain: A Case Study in Statistical and Mathematical Modeling"
