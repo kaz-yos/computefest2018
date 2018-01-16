@@ -251,6 +251,21 @@ Presenter: [[http://imes.mit.edu/people/faculty/brown-emery/][Emery Brown]], Edw
 Moderater: [[https://www.seas.harvard.edu/directory/margo][Margo Seltzer]], Herchel Smith Professor of Computer Science & Director for the Center for Research on Computation and Society, Harvard University\\
 Participants: Emery Brown, John Brownstein, Finale Doshi-Velez, Maryzheh Ghassemi, and Matt Might
 
+- [[https://ncats.nih.gov][NIH NCATS]]: translational research institute
+- Educating physicians: HMS 3rd year electives including research electives. data science elective was very popular.
+- Future data apps that could be made
+  - Google search history based patient matching.
+  - Reinforcement learning used for exercise promotion among diabetics. different prompts give different effects. Learns "you"
+- cyberchondria
+- World is becoming data driven. High-school-level probability/statistics education is required for literacy.
+- More frequent data collection beyond annual checkup is possible using existing data infrastructure.
+
+
+* Closing remark
+
+- billing system is artifactual system
+- GANS to detect fraud? 1/6 of US economy spent on health care
+
 
 * Summary
 
