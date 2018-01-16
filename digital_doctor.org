@@ -262,4 +262,7 @@ Participants: Emery Brown, John Brownstein, Finale Doshi-Velez, Maryzheh Ghassem
   - The [[https://commonfund.nih.gov/bd2k][Big Data to Knowledge]] (BD2K) program is a trans-NIH initiative that was launched in 2013 to support the research and development of innovative and transformative approaches and tools to maximize and accelerate the integration of big data and data science into biomedical research.
 - [[http://mghassem.mit.edu/][Marzyeh Ghassemi]]
   - [[https://www.ncbi.nlm.nih.gov/pubmed/27707820][Understanding vasopressor intervention and weaning: risk prediction in a public heterogeneous clinical time series database.]] The latent states from the switching-state autoregressive mode (SSAM) were used as predictors of vasopressor administration and weaning.
--
+- [[https://www.microsoft.com/en-us/research/people/jchayes/][Jennifer Chayes]]
+  - Screening patients' T-cells for reactivity to a panel of antigens. Could be useful in predicting response to checkpoint inhibitor (cancer immunotherapy) response prediction
+ - [[http://imes.mit.edu/people/faculty/brown-emery/][Emery Brown]]
+  - Something about EEG activity during general anesthesia (my brain got anesthetized by this time)
