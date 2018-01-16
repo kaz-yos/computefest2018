@@ -120,6 +120,7 @@ Presenter: [[https://www.seas.harvard.edu/directory/finale][Finale Doshi-Velez]]
   - Neighbor: what metric of closeness.
 - My Thoughts
   - TTT may be modeled this way similarly to HIV care?
+- [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5543338/][Combining Kernel and Model Based Learning for HIV Therapy Selection]]
 
 
 
@@ -176,7 +177,7 @@ Presenter: [[https://www.hsph.harvard.edu/ecpe/faculty/john-brownstein/][John Br
 - [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4167574/][Online Reports of Foodborne Illness Capture Foods Implicated in Official Foodborne Outbreak Reports]]
 - People are quite open about opioid abuse diversion  [[http://streetrx.com][streetRx - Latest Street Prices For Prescription Drugs]]
 - [[https://flunearyou.org/#!/][flu near you]]
-- [[http://thermia.io][THERMIASimplifying Fevers]]
+- [[http://thermia.io][THERMIA Simplifying Fevers]]
 - [[https://www.buoyhealth.com][Buoy | Understand Your Symptoms]]
 - Flu service via Uber (logistics can be used)
 
@@ -202,6 +203,7 @@ Presenter: [[http://mghassem.mit.edu/][Marzyeh Ghassemi]], Visiting Researcher a
 - topic modeling [[http://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf][Latent Dirichlet Allocation]] [[http://www.pnas.org/content/101/suppl_1/5228.abstract][Finding scientific topics]]
 - deep learning does not improve beyond LDA
 - [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4869063/][digital phenotyping]] (Harnessing Smartphone-Based Digital Phenotyping to Enhance Behavioral and Mental Health)
+- [[https://www.ncbi.nlm.nih.gov/pubmed/27707820][Understanding vasopressor intervention and weaning: risk prediction in a public heterogeneous clinical time series database.]] The latent states from the switching-state autoregressive mode (SSAM) were used as predictors of vasopressor administration and weaning.
 
 
 
@@ -233,8 +235,31 @@ Presenter: [[https://www.microsoft.com/en-us/research/people/jchayes/][Jennifer 
 * 2:40 PM Title: “Deciphering the Dynamics of the Anesthetized Brain: A Case Study in Statistical and Mathematical Modeling"
 Presenter: [[http://imes.mit.edu/people/faculty/brown-emery/][Emery Brown]], Edward Hood Taplin Professor of Medical Engineering and of Computational Neuroscience, Massachusetts Institute of Technology
 
+- high signal to noise problem
+- during anesthesia brain is not turned. activity exists
+- drug-induced reversible state comprised of unconsciousness. Mechanism still not known
+- unconsciousness barbiturates, propofol, inhalational
+- analgesia opioids inhalational
+- amnesia benzodiazepines, hypnotics, inhalational drugs
+- immobility anticholinergics inhalational drugs
+- hemodynamics stability.
+- beta oscillation. slow oscillation brain stem inactivated
+
 
 
 * 3:45 PM Panel Discussion
 Moderater: [[https://www.seas.harvard.edu/directory/margo][Margo Seltzer]], Herchel Smith Professor of Computer Science & Director for the Center for Research on Computation and Society, Harvard University\\
 Participants: Emery Brown, John Brownstein, Finale Doshi-Velez, Maryzheh Ghassemi, and Matt Might
+
+
+* Summary
+
+- [[https://www.seas.harvard.edu/directory/finale][Finale Doshi-Velez]]
+  - [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5543338/][Combining Kernel and Model Based Learning for HIV Therapy Selection]] (prediction based on similar patients or model assumptions)
+- [[https://www.uab.edu/medicine/news/latest/item/1411-white-house-strategist-to-lead-uab-s-personalized-medicine-institute][Matt Might]]
+  - [[https://github.com/webyrd/mediKanren][mediKanren]] Proof-of-concept for reasoning over the SemMedDB knowledge base, using miniKanren + heuristics + indexing. (logic based query of NLP'ed PubMed data)
+- [[https://www.hsph.harvard.edu/ecpe/faculty/john-brownstein/][John Brownstein]]
+  - The [[https://commonfund.nih.gov/bd2k][Big Data to Knowledge]] (BD2K) program is a trans-NIH initiative that was launched in 2013 to support the research and development of innovative and transformative approaches and tools to maximize and accelerate the integration of big data and data science into biomedical research.
+- [[http://mghassem.mit.edu/][Marzyeh Ghassemi]]
+  - [[https://www.ncbi.nlm.nih.gov/pubmed/27707820][Understanding vasopressor intervention and weaning: risk prediction in a public heterogeneous clinical time series database.]] The latent states from the switching-state autoregressive mode (SSAM) were used as predictors of vasopressor administration and weaning.
+-
