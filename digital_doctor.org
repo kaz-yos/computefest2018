@@ -185,12 +185,37 @@ Presenter: [[https://www.hsph.harvard.edu/ecpe/faculty/john-brownstein/][John Br
 * 11:35 AM Title: "Phenomics is the New Genomics"
 Presenter: [[http://mghassem.mit.edu/][Marzyeh Ghassemi]], Visiting Researcher at Google's Verily & MIT CSAIL Post Doctoral Fellow
 
+- Joining U Toronto and Vector Institute for Deep Learning
+- Postdoc with Peter Szolovits
+- same patient can receive different recommendation
+- phenotyping = targeting + evidence
+- 10-20% of treatments are evidence based on RCTs. RCTs are expensive.
+- Among asthmatics, only 6% were eligible for RCTs. (only asthma without other morbidities)
+- 80% of US hospitals have EHR
+- EHR is hard. repurposing (bi-product). heterogenous, sparse (unmeasured, unreported, no follow-up), uncertain (labels, bias, context)
+- [[https://dl.acm.org/citation.cfm?id=2788613][Intelligible Models for HealthCare: Predicting Pneumonia Risk and Hospital 30-day Readmission]] Having asthma resulted in lower risk of pneumonia in the training dataset (is this index event bias?)
+- MIMIC III
+- switching state autoregressive model representations (SSAM). latent state gives values of observed variables.
+- post-hoc interpretability. can generate state before initiation
+- severity of illness very important, but no universal definition
+- clinicians rely on notes more than structured data
+- topic modeling [[http://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf][Latent Dirichlet Allocation]] [[http://www.pnas.org/content/101/suppl_1/5228.abstract][Finding scientific topics]]
+- deep learning does not improve beyond LDA
+- [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4869063/][digital phenotyping]] (Harnessing Smartphone-Based Digital Phenotyping to Enhance Behavioral and Mental Health)
+
+
+
 * 2:00 PM Title: “Challenges and Opportunities for Machine Learning in Cancer Immunotherapy"
 Presenter: [[https://www.microsoft.com/en-us/research/people/jchayes/][Jennifer Chayes]], Managing Director, Microsoft New England Research and New York City
+
+
+
 
 * 2:40 PM Title: “Deciphering the Dynamics of the Anesthetized Brain: A Case Study in Statistical and Mathematical Modeling"
 Presenter: [[http://imes.mit.edu/people/faculty/brown-emery/][Emery Brown]], Edward Hood Taplin Professor of Medical Engineering and of Computational Neuroscience, Massachusetts Institute of Technology
 
+
+
 * 3:45 PM Panel Discussion
-Moderater: [[https://www.seas.harvard.edu/directory/margo][Margo Seltzer]], Herchel Smith Professor of Computer Science & Director for the Center for Research on Computation and Society, Harvard University
+Moderater: [[https://www.seas.harvard.edu/directory/margo][Margo Seltzer]], Herchel Smith Professor of Computer Science & Director for the Center for Research on Computation and Society, Harvard University\\
 Participants: Emery Brown, John Brownstein, Finale Doshi-Velez, Maryzheh Ghassemi, and Matt Might
