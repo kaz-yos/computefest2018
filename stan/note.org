@@ -129,4 +129,40 @@
 \theta &\sim  \pi_{\Ssc}(\theta | \tilde{\Dsc})\\
 \Dsc &\sim \pi_{\Ssc}(\tilde{\Dsc} | \theta)
 \end{align*}
-- Visual inspection
+- Visual inspection: need low dimensional summary of the data that is more sensitive to abnormality
+
+
+* Stan
+- facilitates Bayesian inference with a modeling language and state-of-the-art computational methods
+- Modeling language
+- Automatic differentiation (abstraction)
+- Hamiltonian Monte Carlo
+
+** Modeling language
+
+- Posterior requires three inputs
+- Data, parameter, posterior density relating former two.
+- Joint density of data and parameter $\pi(\Dsc, \theta)$
+- log is easier to make it summing
+
+\begin{align*}
+\log \pi(\theta | \Dsc) &= \sum_{n} \log \pi(\Dsc_{n})
+\end{align*}
+
+\scriptsize
+#+BEGIN_SRC stan
+data {
+    int<lower=1> N;
+    real x[N]
+}
+
+
+model {
+    /* ~ adds stuff to  */
+    beta ~ normal(0,1);
+}
+#+END_SRC
+\normalsize
+
+=beta ~ normal(0,1)= adds $\log \pi += \log \Nsc(\beta | 0,1)$
+=beta ~ normal(0,1)= adds $\log \pi += \log \Nsc(\beta | 0,1)$
