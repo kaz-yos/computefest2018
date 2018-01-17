@@ -164,5 +164,44 @@ model {
 #+END_SRC
 \normalsize
 
-=beta ~ normal(0,1)= adds $\log \pi += \log \Nsc(\beta | 0,1)$
-=beta ~ normal(0,1)= adds $\log \pi += \log \Nsc(\beta | 0,1)$
+- =beta ~ normal(0,1)= adds $\log \pi += \log \Nsc(\beta | 0,1)$
+- =alpha ~ normal(0,1)= adds $\log \pi += \log \Nsc(\alpha | 0,1)$
+
+- Blocks: functions, data, transformed data, parameters, transformed parameters, model, generated quantities (after sampling; deterministic calculation or RNG)
+
+
+- Strong static typing
+- int, real
+- matrix[M,N], vector[M], row_vector[N]
+- bounded
+- Constrained vectors: simplex (sum to one), ordered[N] ()
+- Constrained matrices: cov_matrix[K]
+- ordinary differential equations
+
+- vectorization
+
+\scriptsize
+#+BEGIN_SRC stan
+/*  */
+for (n in 1:N)
+    y[n] ~ normal(mu[n], sigma[n]);
+
+/* vectorized faster */
+y ~ normal(mu, sigma);
+#+END_SRC
+\normalsize
+
+- Hamiltonian Monte Carlo
+- $\Ebb[f] = \int \text{d}\theta \pi(\theta| \Dsc) f(\theta)$
+
+- Diagnostics for Hamiltonian
+- HMC requires strong geometric ergodicity conditions to ensure trustworthy results
+
+\begin{align*}
+\frac{1}{N} \sum^{N}_{n=1} f(\theta_{n}) &~ \Nsc \left( \Ebb[f], \frac{}{} \right)
+\end{align*}
+
+- Rhat Rubin statistics (multiple chains). Have they seen the same space. < 1.3 ok.
+- stan_utility.check_rhat(fit)
+- divergence if encountering a hard to explore region.
+- stan_utility.check_div(sampler_parameers): prop divergence.
