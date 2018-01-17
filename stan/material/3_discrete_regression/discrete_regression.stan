@@ -2,7 +2,7 @@ data {
     int <lower=1> N;
     int <lower=1> M;
     matrix[M,N] X;
-    int y[N]
+    int y[N];
 }
 
 parameters {
