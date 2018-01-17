@@ -205,3 +205,13 @@ y ~ normal(mu, sigma);
 - stan_utility.check_rhat(fit)
 - divergence if encountering a hard to explore region.
 - stan_utility.check_div(sampler_parameers): prop divergence.
+
+
+** Good practice
+
+- maintain reproducibility by saving the model, data, and inits in files and the Python commands in scripts
+- version control on module files and scripts
+- Start simple (easier to diagnose). the last attempt is the culprit if sequentially done.
+- Simulate data and fit on it. Workflow validation.
+- Keep an eye on those diagnostics!
+- documentation tutorials and case studies.
