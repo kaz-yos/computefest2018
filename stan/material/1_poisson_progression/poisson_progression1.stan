@@ -1,6 +1,6 @@
 data {
     int N;
-    int y[N]
+    int y[N];
 }
 
 parameters {
@@ -16,5 +16,5 @@ generated quantities {
     int y_ppc[N];
 
     for (n in 1:N)
-        y_ppc[n] = poisson_rng(lambda;)
+        y_ppc[n] = poisson_rng(lambda);
 }
