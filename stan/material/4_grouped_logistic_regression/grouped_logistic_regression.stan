@@ -23,6 +23,7 @@ generated quantities {
     real p_hat_left_ppc = 0;
     real p_hat_right_ppc = 0;
 
+    /* This {} is temporary, and is not saved. */
     {
 
         int n_left = 0;

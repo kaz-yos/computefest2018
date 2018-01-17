@@ -28,6 +28,7 @@ model {
 
 generated quantities {
     real y_ppc[N];
+    /* Temporary scope, not kept */
     {
         vector[N] mu = X' * beta + alpha;
         for (n in 1:N) {
