@@ -221,3 +221,97 @@ y ~ normal(mu, sigma);
 
 - https://betanalpha.github.io
 - Material: https://betanalpha.github.io/workshops/computefest/material.zip
+
+* Exercise 1
+
+- Zero-inflated truncated Poisson distribution.
+- Any one dimensional distribution can be truncated.
+
+
+* Regression modeling
+
+- Model building. modular
+- Likelihood and prior should be defined together.
+
+\begin{align*}
+\pi(\theta | \Dsc) &\propto \pi(\Dsc|\theta)\pi(\theta)
+\end{align*}
+
+- Four components to data, can be decomposed. and simplify (sequence of data of distribution). how the data was collected.
+- similar for prior
+- break down to smaller pieces with less dependencies
+
+- dependent variable (more variability), covariates x (more easily measured). asymmetry.
+
+\begin{align*}
+\pi(y,x | \theta) &= \pi(y|x,\theta)\pi(x|\theta)
+\end{align*}
+
+- Assumption $\pi(x|\theta) = \pi(x)$. no selection bias. Assuming no relevance of x.
+
+\begin{align*}
+\pi(y,x | \theta) &\propto \pi(y|x,\theta)
+\end{align*}
+
+- statistical model
+
+\begin{align*}
+\pi(y|x,\theta) &= \pi(y | f(x,\theta_{1}), \theta_{2})\\
+\end{align*}
+
+- separate x and y
+
+\begin{align*}
+\pi(y|x,\theta) &= \Nsc(y | f(x,\theta), \sigma)\\
+\pi(y|x,\theta) &= \text{Binomial}(y | f(x,\theta), N)\\
+\end{align*}
+
+- two parameter family
+
+\begin{align*}
+\pi(y|x,\theta) &= \pi(y | f_{1}(x,\theta_{1}), f_{2}(x,\theta_{2}), \theta_{3})\\
+\end{align*}
+
+- linear function of x and intercept
+
+\begin{align*}
+f(x,\alpha,\bbeta) &= \bX^{T}\bbeta + \alpha
+\end{align*}
+
+- linear regression
+
+\begin{align*}
+\pi(y| \bX, \alpha, \bbeta, \sigma) &= \Nsc(y| \bX^{T}\bbeta + \alpha, \sigma)
+\end{align*}
+
+- less data and parameters. likelihood will be non-identifiable. collinear model. plane of possibility.
+- weakly informative priors to prevent unreasonable values. Do not set a hard bound. soft bound.
+- wrong scaling. reason about the unit. Both the data and prior should be on the same unit for
+
+\begin{align*}
+\bbeta &\sim \Nsc \left( \bmu, \bOmega \right)\\
+\beta_{i} &\sim \Nsc \left( 0, \omega_{i} \right)\\
+\end{align*}
+
+- scale is important
+- half normal for $\sigma$
+
+- generalized linear models
+- $g$ is inverse link function
+- linear response and
+
+- logistic
+\begin{align*}
+\text{Ber}(y | \text{logistic}(\bX^{T}\bbeta + \alpha))
+\end{align*}
+
+- Poisson
+\begin{align*}
+\text{Poisson}(y | \exp(\bX^{T}\bbeta + \alpha))
+\end{align*}
+- one parameter family with constrained
+
+- NegBin2 for overdispersion
+\begin{align*}
+Var[y] &= \mu + \frac{\mu^{2}}{\}
+\end{align*}
