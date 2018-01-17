@@ -215,3 +215,9 @@ y ~ normal(mu, sigma);
 - Simulate data and fit on it. Workflow validation.
 - Keep an eye on those diagnostics!
 - documentation tutorials and case studies.
+
+
+** links
+
+- https://betanalpha.github.io
+- Material: https://betanalpha.github.io/workshops/computefest/material.zip
