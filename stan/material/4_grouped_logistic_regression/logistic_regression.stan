@@ -16,7 +16,7 @@ model {
     y ~ bernoulli_logit (X' * beta + alpha);
 }
 
-generated quantitites {
+generated quantities {
     real p_hat_ppc = 0;
 
     for (n in 1:N) {
