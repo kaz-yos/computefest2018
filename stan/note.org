@@ -37,7 +37,7 @@
 #+LATEX_HEADER: \pagestyle{fancy}
 #+LATEX_HEADER: \fancyhf{} % Erase first to supress section names
 #+LATEX_HEADER: \fancyhead[L]{Kazuki Yoshida} % LEFT
-#+LATEX_HEADER: \fancyhead[C]{} % CENTER
+#+LATEX_HEADER: \fancyhead[C]{Introduction to Bayesian Inference with Stan} % CENTER
 #+LATEX_HEADER: \fancyhead[R]{\today} % RIGHT
 #+LATEX_HEADER: \fancyfoot[C]{\thepage}
 #+LATEX_HEADER: %% \fancyfoot[R]{Page \thepage\ of \pageref{LastPage}}
@@ -76,6 +76,57 @@
 #+LATEX_HEADER: \input{\string~/.emacs.d/misc/GrandMacros}
 # ############################################################################ #
 
-* Overview
+* Introduction
 
-- Introduction to Bayesian Inference with Stan
+- measurement inherently random, variability
+- Assume a latent data generating process
+
+\begin{align*}
+\pi(\Dsc)
+\end{align*}
+
+- There is a distribution over the measurement.
+- Space of all distribution $\Msc$ including pathological ones that may not be relevant
+- For practicality, limit ourselves $\Ssc$ small world. The true distribution may fall under here. But this may not be sophisticated enough
+- After choosing the small world $\Ssc$, $\theta \rightarrow \pi_{\Ssc}(\Dsc | \theta)$. likelihood.
+- Measurement $\tilde{\Dsc}$. Two different objects.
+- Bayesian inference: probability is used to quantify consistency of the model with data. $\pi_{\Ssc}(\theta | \tilde{\Dsc})$. Density over $\Ssc$.
+
+\begin{align*}
+\pi_{\Ssc}(\theta | \tilde{\Dsc}) &= \frac{\pi_{\Ssc}(\Dsc | \theta) \pi_{\Ssc}(\theta)}{\pi_{\Ssc}(\Dsc)}
+\end{align*}
+
+- Normalization constant. marginalized likelihood. Called evidence in physics. Not necessary.
+- Prior tells us what we need before measurement. /a priori/ soft weighting. some parts of the parameter space is more likely
+- Likelihood is the weighting function based on the measurement.
+- Posterior concentrates more. As data increase,
+- Updating procedure.
+- One operation: execration
+- All inferential questions are answered by posterior expectations.
+- Mean: centrality $\mu$
+- Variance: diffuse $\sigma^{2}$
+- Utility $U(A)$
+
+\begin{align*}
+\mu &= \int \text{d}\theta \pi_{\Ssc}(\theta | \tilde{\Dsc})\\
+\sigma^{2} &= \int \text{d}\theta \pi_{\Ssc}(\theta^{2} | \tilde{\Dsc}) - \mu^{2}\\
+\end{align*}
+
+- validation: predictive model comparison
+- averaging prediction. posterior predictive distribution.
+
+\begin{align*}
+\pi_{\Ssc}(\Dsc | \tilde{\Dsc}) &= \int \text{d}\theta \pi_{\Ssc}(\Dsc | \theta ) \pi_{\Ssc}(\theta | \tilde{\Dsc})\\
+\end{align*}
+- Comparing $\pi_{\Ssc}(\Dsc | \tilde{\Dsc})$ vs $\pi(\Dsc)$ (truth; not possible)
+- Comparing $\pi_{\Ssc}(\Dsc | \tilde{\Dsc})$ vs $\tilde{\Dsc}$ (estimator)
+- misfit
+- Overfitting: difference in ML vs Statisticians
+- Chasing the noise. pathological behavior
+
+- Two-step posterior predictive distribution
+\begin{align*}
+\theta &\sim  \pi_{\Ssc}(\theta | \tilde{\Dsc})\\
+\Dsc &\sim \pi_{\Ssc}(\tilde{\Dsc} | \theta)
+\end{align*}
+- Visual inspection
