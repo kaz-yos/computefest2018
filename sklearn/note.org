@@ -99,3 +99,11 @@
 - error on the entire population (out-of-sample error) is roughly the same as the in-sample error.
 - statistics: unbiasedness.
 - ML: robustness preferred over unbiasedness.
+- neural networks are fit on very large data. regularization is typically used. be skeptical of complex models.
+- noisy data. complex model performs worse.
+
+- sample from the population. sampling distribution.
+- complex model becomes unstable particularly in the part where data is sparse.
+- high variance situation. high variance across random samples.
+- K-fold CV. 30 data points. 5-fold 24 data points (more overfitting). over-estimate overfitting than overfitting using 30-data-point sample. more bias (worse performance) with respect to prediction performance
+
