@@ -165,3 +165,12 @@ from sklearn.metrics import mean_squared_error
 - GridSearchCV
 - sklearn.dataset
 - score: R^{2} for regression or accuracy for classification
+
+
+* Classification
+
+- regression can be used
+- K nearest neighbors
+- what to do with probabilities
+- scoring function in sklearn splits at 0.5
+- asymmetry in scoring (classifying cancer based on probability)
