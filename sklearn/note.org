@@ -107,3 +107,61 @@
 - high variance situation. high variance across random samples.
 - K-fold CV. 30 data points. 5-fold 24 data points (more overfitting). over-estimate overfitting than overfitting using 30-data-point sample. more bias (worse performance) with respect to prediction performance
 
+- iterator does not generate data. saves space
+- sklearn only three things.
+  - transforming. feature engineering. need to create polynomials etc
+  - fitting
+- sklearn expects list of lists.
+
+- reshape
+- columns features. rows observations.
+
+- loading modeling function
+- loading assessment function
+
+\scriptsize
+#+BEGIN_SRC python
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error
+#+END_SRC
+\normalsize
+
+- create an estimator, fit on training data. state changes to a fitted model.
+- training set error keeps decreasing with model complexity
+- anreas pycon workshop for scikit learn
+
+- training error goes down
+- test error goes up and down. artifacts going up down.
+- test set has been used at the point we chose.
+- error associated with the hyperparameter (degree of polynomials)
+- test set was used to choose d. not a good representation of out of sample error.
+- test set could be bad.
+- we have used up all the data for
+
+
+* Validating Models
+- validating
+- regularization
+- hyperparameters two in elastic net
+- idiosyncratic validation set is solved with CV
+
+** CV
+- deterministic split bad if data is sorted.
+- split has to be done up front.
+- choose d based on cross validation.
+- fit on the entire dataset at that d
+- predict and report on held-out part.
+
+- high variance with
+- plot the errors individually. not just the mean.
+- go back and refit the entire training test set.
+- (train-validate)-test set
+
+
+* Regularization
+
+- model space restriction
+- alpha is prior
+- GridSearchCV
+- sklearn.dataset
+- score: R^{2} for regression or accuracy for classification
