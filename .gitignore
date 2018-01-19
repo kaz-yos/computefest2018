@@ -5,8 +5,6 @@
 .Rhistory
 .tramp_history
 *.RData
-*.png
-*.jpg
 *.doc*
 *.ppt*
 *.xls*
