@@ -82,6 +82,48 @@
 
 * Medical Image Segmentation Using DIGITS
 - cardiac MRI LV detection
+- goal accurately identify the area of the left ventricle in cardiac MRIs using [[https://github.com/NVIDIA/DIGITS][DIGITS]] open source software suite
+- DIGITS (the Deep Learning GPU Training System) is a webapp for training deep learning models. The currently supported frameworks are: Caffe, Torch, and Tensorflow.
+
+** computer vision tasks
+- classification
+- classification and localization
+- object detection
+- image segmentation
+- see cs231n from Standford
+
+** Problem
+- semantic segmentation: each pixel is classified.
+- [[http://smial.sri.utoronto.ca/LV_Challenge/Home.html][Sunnybrook cardiac images dataset]]
+- AlexNet architecture is reused.
+- utilize transfer learning (trained network is trained further)
+- image dicom 256 x 256 grayscale
+
+** Lab
+- done on the pre-configured platform https://nvlabs.qwiklab.com/. Not reproducible locally.
+
 
 * Medical Image Analysis with R and MXNet
-- heart disease diagnosis using R and MXNet
+- automate heart disease diagnosis using R and MXNet
+- Introduction to MXNet, aims to develop familiarity
+
+- MRI images from more than 1000 patients
+- MRI images in dicom 30 images across the cardiac cycle for each patient.
+- compare after systole and diastole
+
+
+
+- MXnet open source deep learning framework
+- scale to distributed system
+- mixed programming api.
+
+\scriptsize
+#+header: :width 3.5 :height 3
+#+BEGIN_SRC R :session *R* :results output :exports both
+library(mxnet)
+#+END_SRC
+\normalsize
+
+- 500 training studies each study 10 unique
+- 64 x 64 x 30 deck of images
+- LeNet style CNN
