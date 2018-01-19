@@ -95,3 +95,6 @@
 - [[http://shop.oreilly.com/product/0636920033400.do#tab_04_2][Data Science from Scratch]]
 - [[https://www.youtube.com/watch?v=o64FV-ez6Gw][Joel Grus - Livecoding Madness - Let's Build a Deep Learning Library]]
 - "*" is elementwise, np.dot is matrix multiplication
+- Python list is heterogeneous. just list of pointers.
+- base Python iteration on a numpy array element. overhead of unboxing and boxing.
+- garbage collected language. if reference count is zero, memory is freed
