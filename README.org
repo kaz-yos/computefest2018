@@ -51,8 +51,12 @@ This is a collection of my personal resources obtained/created at [[https://comp
 
 ** Deep Learning for Health Care Image Analysis
 - Run by NVIDIA
-- [[./cnn/Medical+Image+Segmentation.pdf][Medical Image Segmentation Using DIGITS]] (used a special platform)
+- My note is at [[./cnn/note.pdf]]
+- [[./cnn/Medical+Image+Segmentation.pdf][Medical Image Segmentation Using DIGITS]] (used open-source [[https://github.com/NVIDIA/DIGITS][DIGITS]] platform)
+  - DIGITS (the Deep Learning GPU Training System) is a webapp for training deep learning models. The currently supported frameworks are: Caffe, Torch, and Tensorflow.
 - [[https://nbviewer.jupyter.org/github/kaz-yos/computefest2018/blob/master/cnn/Medical%20Image%20Analysis%20with%20R%20and%20MXNet.ipynb][Medical Image Analysis with R and MXNet]] (see corresponding pdf for images)
+  - [[http://mxnet.incubator.apache.org][Apache MXNet A flexible and efficient library for deep learning.]]
 
 ** Digital Content Creation Using GANS and Autoencoders
 - Run by NVIDIA
+- My note is at [[./gans/note.pdf]]
