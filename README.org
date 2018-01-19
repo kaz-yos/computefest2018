@@ -51,7 +51,11 @@ This is a collection of my personal resources obtained/created at [[https://comp
 
 ** Deep Learning Image Classification with Keras
 - I did not attend this.
-- https://github.com/cs109/2018-ComputeFest
+- Git repo: https://github.com/cs109/2018-ComputeFest
+- [[https://github.com/cs109/2018-ComputeFest/blob/master/ComputeFest2018_IntroKeras.pdf][Slides]]
+- [[https://nbviewer.jupyter.org/github/cs109/2018-ComputeFest/tree/master/][Rendered notebooks using nbviewer]]
+  - [[https://nbviewer.jupyter.org/github/cs109/2018-ComputeFest/blob/master/ImageClassification-After.ipynb][Image Classification]]
+  - [[https://nbviewer.jupyter.org/github/cs109/2018-ComputeFest/blob/master/XOR_example.ipynb][XOR example]]
 
 ** Deep Learning for Health Care Image Analysis
 - Run by NVIDIA
