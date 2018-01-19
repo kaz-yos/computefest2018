@@ -174,11 +174,23 @@ pandas is faster if on-memory storage is possible.
 *** SELECT-DISTINCT
 
 *** ASSIGN
+- inplace
 
 *** AGGREGATE
+- .describe() on the entire df R's summary()
 
 *** SAMPLE
 
 *** GROUP-AGG
+- .groupby() will create a nested df
+- index is created. can iterate over the index.
 
 *** DELETE
+- inplace manipulation for large datasets.
+
+*** LIMIT
+- used with ORDER BY
+
+** Relationships: JOINs are Cartesian products
+- http://pandas.pydata.org/pandas-docs/stable/merging.html
+- https://blog.codinghorror.com/a-visual-explanation-of-sql-joins/
