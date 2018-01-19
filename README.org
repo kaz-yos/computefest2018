@@ -36,6 +36,7 @@ This is a collection of my personal resources obtained/created at [[https://comp
 - [[https://nbviewer.jupyter.org/github/kaz-yos/computefest2018/blob/master/sklearn/][My rendered notebooks using nbviewer]]
   - [[https://nbviewer.jupyter.org/github/kaz-yos/computefest2018/blob/master/sklearn/distribute_learning_models.ipynb][distribute_learning_models]]
   - [[https://nbviewer.jupyter.org/github/kaz-yos/computefest2018/blob/master/sklearn/distribute_validation_regularization.ipynb][distribute_validation_regularization]] ([[https://nbviewer.jupyter.org/github/kaz-yos/computefest2018/blob/master/sklearn/distribute_validation_regularization.ipynb#The-entire-description-of-K-fold-Cross-validation][This]] particular way of cross-validation is interesting.)
+  - [[https://nbviewer.jupyter.org/github/kaz-yos/computefest2018/blob/master/sklearn/classification.ipynb][classification (unworked)]]
 
 ** Pandas: Relational Database Concepts for Data Science
 - pandas and its connection to relational database ideas by
@@ -43,7 +44,10 @@ This is a collection of my personal resources obtained/created at [[https://comp
 - My note is at [[./pandas/note.pdf]]
 - My Jupyter notebooks are at [[./pandas]]
 - [[https://nbviewer.jupyter.org/github/kaz-yos/computefest2018/blob/master/pandas][My rendered notebooks using nbviewer]]
-  -
+  - [[https://nbviewer.jupyter.org/github/kaz-yos/computefest2018/blob/master/pandas/pandas.ipynb][pandas overview]]
+  - [[https://nbviewer.jupyter.org/github/kaz-yos/computefest2018/blob/master/pandas/EDA.ipynb][EDA]]
+  - [[https://nbviewer.jupyter.org/github/kaz-yos/computefest2018/blob/master/pandas/grammarofdata.ipynb][Grammar of data manipulation (pandas in comparison/conjunction with SQL)]]
+  - [[https://nbviewer.jupyter.org/github/kaz-yos/computefest2018/blob/master/pandas/elections.ipynb][2012 US Presidential Election data analysis]]
 
 ** Deep Learning Image Classification with Keras
 - I did not attend this.
