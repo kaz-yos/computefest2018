@@ -11,4 +11,24 @@ This is a collection of my personal resources obtained/created at [[https://comp
 
 * Symposium
 
-See [[./symposium]] subfolder
+- My note is at [[./symposium/digital_doctor.pdf]]
+
+
+* Skill Building Workshop
+
+- See https://computefest.seas.harvard.edu/workshops for overview
+
+** Intro to Bayesian Inference with Stan
+
+- Stan workshop by [[https://betanalpha.github.io][Michael Betancourt, PhD]] of the Stan Development Team.
+- The raw material is at https://betanalpha.github.io/workshops/computefest/material.zip
+- Stan code was given printed on paper.
+- My note is at [[./stan/note.pdf]]
+- My Jupyter notebooks and stan code are at [[./stan/material]]
+
+** Python Machine Learning with sklearn
+
+- scikit-learn and machine learning basics by
+- [[https://mybinder.org/v2/gh/Harvard-IACS/computefest2018-sklearn/master][Live Jupyter notebooks]]
+- My note is at [[./sklearn/note.pdf]]
+- My Jupyter notebooks are at [[./sklearn]]
