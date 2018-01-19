@@ -51,6 +51,8 @@ This is a collection of my personal resources obtained/created at [[https://comp
 
 ** Deep Learning for Health Care Image Analysis
 - Run by NVIDIA
+- [[./cnn/Medical+Image+Segmentation.pdf][Medical Image Segmentation Using DIGITS]] (used a special platform)
+- [[https://nbviewer.jupyter.org/github/kaz-yos/computefest2018/blob/master/cnn/Medical%20Image%20Analysis%20with%20R%20and%20MXNet.ipynb][Medical Image Analysis with R and MXNet]] (see corresponding pdf for images)
 
 ** Digital Content Creation Using GANS and Autoencoders
 - Run by NVIDIA
