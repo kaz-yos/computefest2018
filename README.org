@@ -1,8 +1,14 @@
-* Meta-data :noexport:
 #+TITLE: Harvard IACS's ComputeFest 2018
 #+AUTHOR: Kazuki Yoshida
 #+OPTIONS: toc:nil
 #+OPTIONS: ^:{}
 # ############################################################################ #
 
+* Overview
+
+This is a collection of my personal resources obtained/created at [[https://computefest.seas.harvard.edu/node/897006][ComputeFest 2018]] event held by Harvard Institute of Applied Computational Science.
+
+
 * Symposium
+
+See [[./symposium]] subfolder
