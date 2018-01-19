@@ -12,7 +12,7 @@ This is a collection of my personal resources obtained/created at [[https://comp
 * Symposium
 
 - The information booklet is at [[./symposium/booklet.pdf]]
-- My note is at [[./symposium/digital_doctor.pdf]]
+- My note is at [[./symposium/digital_doctor.pdf]] or [[./symposium/digital_doctor.org]]
 
 
 * Skill Building Workshop
