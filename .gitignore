@@ -31,3 +31,4 @@ __pycache__
 .ipynb_checkpoints
 /stan/material/2_linear_regression/linear_regression.data.R
 /stan/material/stan-reference-2.17.0.pdf
+._git
