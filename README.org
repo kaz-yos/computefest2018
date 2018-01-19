@@ -11,6 +11,7 @@ This is a collection of my personal resources obtained/created at [[https://comp
 
 * Symposium
 
+- The information booklet is at [[./symposium/booklet.pdf]]
 - My note is at [[./symposium/digital_doctor.pdf]]
 
 
@@ -25,10 +26,18 @@ This is a collection of my personal resources obtained/created at [[https://comp
 - Stan code was given printed on paper.
 - My note is at [[./stan/note.pdf]]
 - My Jupyter notebooks and stan code are at [[./stan/material]]
+- My rendered notebooks using nbviewer
+  - [[https://nbviewer.jupyter.org/github/kaz-yos/computefest2018/blob/master/stan/material/1_poisson_progression/poisson_progression.ipynb][1_poisson_progression]]
+  - [[https://nbviewer.jupyter.org/github/kaz-yos/computefest2018/blob/master/stan/material/2_linear_regression/linear_regression.ipynb][2_linear_regression]]
+  - [[https://nbviewer.jupyter.org/github/kaz-yos/computefest2018/blob/master/stan/material/3_discrete_regression/discrete_regression.ipynb][3_discrete_regression]] (Poisson and negative binomial regression)
+  - [[https://nbviewer.jupyter.org/github/kaz-yos/computefest2018/blob/master/stan/material/4_grouped_logistic_regression/grouped_logistic_regression.ipynb][4_grouped_logistic_regression]]
 
 ** Python Machine Learning with sklearn
 
 - scikit-learn and machine learning basics by
-- [[https://mybinder.org/v2/gh/Harvard-IACS/computefest2018-sklearn/master][Live Jupyter notebooks]]
+- [[https://mybinder.org/v2/gh/Harvard-IACS/computefest2018-sklearn/master][Live Jupyter notebooks]] (unmodified)
 - My note is at [[./sklearn/note.pdf]]
 - My Jupyter notebooks are at [[./sklearn]]
+- My rendered notebooks using nbviewer
+  - [[https://nbviewer.jupyter.org/github/kaz-yos/computefest2018/blob/master/sklearn/distribute_learning_models.ipynb][distribute_learning_models]]
+  - [[https://nbviewer.jupyter.org/github/kaz-yos/computefest2018/blob/master/sklearn/distribute_validation_regularization.ipynb][distribute_validation_regularization]] ([[https://nbviewer.jupyter.org/github/kaz-yos/computefest2018/blob/master/sklearn/distribute_validation_regularization.ipynb#The-entire-description-of-K-fold-Cross-validation][This]] particular way of cross-validation is interesting.)
