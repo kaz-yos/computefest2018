@@ -194,3 +194,16 @@ pandas is faster if on-memory storage is possible.
 ** Relationships: JOINs are Cartesian products
 - http://pandas.pydata.org/pandas-docs/stable/merging.html
 - https://blog.codinghorror.com/a-visual-explanation-of-sql-joins/
+
+* elections.ipynb
+
+- simulate_election
+- .reshape(-1, 1) to create a list of lists
+- probability is discretized by electoral college
+- Function signature: written outside the function
+
+
+* Summary
+- intro to pandas
+- verbs of data manipulation
+- look at amuellea pydata workshop OBSC
