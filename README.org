@@ -1,0 +1,8 @@
+* Meta-data :noexport:
+#+TITLE: Harvard IACS's ComputeFest 2018
+#+AUTHOR: Kazuki Yoshida
+#+OPTIONS: toc:nil
+#+OPTIONS: ^:{}
+# ############################################################################ #
+
+* Symposium
