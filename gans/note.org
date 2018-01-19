@@ -79,7 +79,22 @@
 * Opening
 - Barton Fiske
 - Bradley Palmer
+- Shakespeare novel generator
+  - [[http://karpathy.github.io/2015/05/21/rnn-effectiveness/][The Unreasonable Effectiveness of Recurrent Neural Networks]]
+- Generative adversarial networks (networks as there are multiple)
+  - Generator (forger) tries to fool the disriminator (minimize the reward)
+  - Discriminator (law enforcement) tries to maximize
+  - minimax function
+- [[http://research.nvidia.com/publication/2017-10_Progressive-Growing-of][Fake celebrities]]
+
+- generator tries to maximize discriminator's error
+- discriminator tries to minimize
+- mapping images to latent vectors. then swap some elements.
+
 
 * Image creation using Generative Adversarial Networks in Tensorflow and DIGITS
+- generate images of handwritten
 
 * Rendered Image Denoising using Autoencoders
+- denoising
+- faster and high-quality
