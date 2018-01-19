@@ -115,3 +115,70 @@
 - .iloc[0:3] is index location. first three rows
 - .loc[0:7] row names 0,...,7 (labels not location index)
 - .loc[5:7, []]
+- avoid string if possible.
+- [[https://jakevdp.github.io/PythonDataScienceHandbook/][Python Data Science Handbook]]
+- [[https://chrisalbon.com][Chris Albon's web site]]
+
+* EDA.ipynb
+
+** EDA
+The basic workflow is as follows:
+
+1. **Build** a DataFrame from the data (ideally, put all data in this object)
+2. **Clean** the DataFrame. It should have the following properties:
+    - Each row describes a single object
+    - Each column describes a property of that object
+    - Columns are numeric whenever appropriate
+    - Columns contain atomic properties that cannot be further decomposed
+3. Explore **global properties**. Use histograms, scatter plots, and aggregation functions to summarize the data.
+4. Explore **group properties**. Use groupby and small multiples to compare subsets of the data.
+
+This process transforms your data into a format which is easier to work with, gives you a basic overview of the data's properties, and likely generates several questions for you to followup in subsequent analysis.
+
+
+* grammarofdata.ipynb
+- categorical transformaton. astype("category")
+- describe() describes categorical nicely.
+- regression requires dummy variables
+- specify SQL type data base schema
+  - name of column
+  - primary key modifier must be unique
+  - NOT EMPTY cannot be empty
+  - NOT NULL (must be one of them)
+
+** verbs
+
+\scriptsize
+| *VERB*                    | *dplyr*                      | *pandas*                       | *SQL*                          |
+|---------------------------+------------------------------+--------------------------------+--------------------------------|
+| QUERY/SELECTION           | filter() (and slice())       | query() (and loc[], iloc[])    | SELECT WHERE                   |
+| SORT                      | arrange()                    | sort()                         | ORDER BY                       |
+| SELECT-COLUMNS/PROJECTION | select() (and rename())      | [](__getitem__) (and rename()) | SELECT COLUMN                  |
+| SELECT-DISTINCT           | distinct()                   | unique(),drop_duplicates()     | SELECT DISTINCT COLUMN         |
+| ASSIGN                    | mutate() (and transmute())   | assign                         | ALTER/UPDATE                   |
+| AGGREGATE                 | summarise()                  | describe(), mean(), max()      | None, AVG(),MAX()              |
+| SAMPLE                    | sample_n() and sample_frac() | sample()                       | implementation dep, use RAND() |
+| GROUP-AGG                 | group_by/summarize           | groupby/agg, count, mean       | GROUP BY                       |
+| DELETE                    | ?                            | drop/masking                   | DELETE/WHERE                   |
+\normalsize
+
+pandas is faster if on-memory storage is possible.
+
+*** QUERY
+- .isin() for categoricals
+
+*** SORT
+
+*** SELECT-COLUMNS/PROJECTION
+
+*** SELECT-DISTINCT
+
+*** ASSIGN
+
+*** AGGREGATE
+
+*** SAMPLE
+
+*** GROUP-AGG
+
+*** DELETE
