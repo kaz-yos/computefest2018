@@ -38,6 +38,24 @@ This is a collection of my personal resources obtained/created at [[https://comp
 - [[https://mybinder.org/v2/gh/Harvard-IACS/computefest2018-sklearn/master][Live Jupyter notebooks]] (unmodified)
 - My note is at [[./sklearn/note.pdf]]
 - My Jupyter notebooks are at [[./sklearn]]
-- My rendered notebooks using nbviewer
+- [[https://nbviewer.jupyter.org/github/kaz-yos/computefest2018/blob/master/sklearn/][My rendered notebooks using nbviewer]]
   - [[https://nbviewer.jupyter.org/github/kaz-yos/computefest2018/blob/master/sklearn/distribute_learning_models.ipynb][distribute_learning_models]]
   - [[https://nbviewer.jupyter.org/github/kaz-yos/computefest2018/blob/master/sklearn/distribute_validation_regularization.ipynb][distribute_validation_regularization]] ([[https://nbviewer.jupyter.org/github/kaz-yos/computefest2018/blob/master/sklearn/distribute_validation_regularization.ipynb#The-entire-description-of-K-fold-Cross-validation][This]] particular way of cross-validation is interesting.)
+
+** Pandas: Relational Database Concepts for Data Science
+- pandas and its connection to relational database ideas by
+- [[https://mybinder.org/v2/gh/Harvard-IACS/computefest2018-pandas/master][Live Jupyter notebooks]] (unmodified)
+- My note is at [[./pandas/note.pdf]]
+- My Jupyter notebooks are at [[./pandas]]
+- [[https://nbviewer.jupyter.org/github/kaz-yos/computefest2018/blob/master/pandas][My rendered notebooks using nbviewer]]
+  -
+
+** Deep Learning Image Classification with Keras
+- I did not attend this.
+- https://github.com/cs109/2018-ComputeFest
+
+** Deep Learning for Health Care Image Analysis
+- Run by NVIDIA
+
+** Digital Content Creation Using GANS and Autoencoders
+- Run by NVIDIA
