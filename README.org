@@ -5,22 +5,18 @@
 # ############################################################################ #
 
 * Overview
-
 This is a collection of my personal resources obtained/created at [[https://computefest.seas.harvard.edu/node/897006][ComputeFest 2018]] event held by Harvard Institute of Applied Computational Science.
 
 
 * Symposium
-
 - The information booklet is at [[./symposium/booklet.pdf]]
 - My note is at [[./symposium/digital_doctor.pdf]] or [[./symposium/digital_doctor.org]]
 - [[./symposium/digital_doctor.org#summary][Summary]]
 
 * Skill Building Workshop
-
 - See https://computefest.seas.harvard.edu/workshops for overview
 
 ** Intro to Bayesian Inference with Stan
-
 - Stan workshop by [[https://betanalpha.github.io][Michael Betancourt, PhD]] of the Stan Development Team.
 - The raw material is at https://betanalpha.github.io/workshops/computefest/material.zip
 - Stan code was given printed on paper.
@@ -33,7 +29,6 @@ This is a collection of my personal resources obtained/created at [[https://comp
   - [[https://nbviewer.jupyter.org/github/kaz-yos/computefest2018/blob/master/stan/material/4_grouped_logistic_regression/grouped_logistic_regression.ipynb][4_grouped_logistic_regression]]
 
 ** Python Machine Learning with sklearn
-
 - scikit-learn and machine learning basics by
 - [[https://mybinder.org/v2/gh/Harvard-IACS/computefest2018-sklearn/master][Live Jupyter notebooks]] (unmodified)
 - My note is at [[./sklearn/note.pdf]]
