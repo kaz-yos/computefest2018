@@ -68,3 +68,5 @@ This is a collection of my personal resources obtained/created at [[https://comp
 ** Digital Content Creation Using GANS and Autoencoders
 - Run by NVIDIA
 - My note is at [[./gans/note.pdf]]
+- [[./gans/notebook.pdf][Image Creation Using Generative Adversarial networks]]
+- [[./gans/dli-denoise.pdf][Rendered Image Denoising using Autoencoders]]
